@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SortWidget</class>
+ <widget class="QWidget" name="SortWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="returnButton">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>270</y>
+     <width>80</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Main Menu</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="mathRadioButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>96</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mark1</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="enRadioButton">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>20</y>
+     <width>96</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mark2</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="cRadioButton">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>20</y>
+     <width>96</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mark3</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="avgRadioButton">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>20</y>
+     <width>96</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Average</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sortButton">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>270</y>
+     <width>80</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sorting</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>361</width>
+     <height>211</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
